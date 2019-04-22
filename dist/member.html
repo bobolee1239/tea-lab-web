@@ -34,11 +34,20 @@
         <li class="nav-item">
           <a class="nav-link btn btn-light" href="index.html#research">Research</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-light" href="bai.html">Director</a>
-        </li>
         <li class="nav-item active">
-          <a class="nav-link btn btn-light" href="#member">Members <span class="sr-only">(current)</span></a>
+          <a class="nav-link btn btn-light" href="#member">About US <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle btn btn-light" href="bai.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Director
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="bai.html">Bio</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="bai.html#publication">Publication</a>
+            <a class="dropdown-item" href="bai.html#honor">Honor</a>
+            <a class="dropdown-item" href="bai.html#activities">Activities</a>
+          </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle btn btn-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,8 +66,10 @@
 
   <!-- jumbotran -->
   <header>
-    <div id="banner container">
-      <img src="image/labPhoto.jpg" alt="TEA Lab" class="img-fluid"/>
+    <div class="jumbotron jumbotran-fluid" id="banner">
+      <div class="container">
+        <img src="image/labPhoto.jpg" alt="TEA Lab" class="img-fluid"/>
+      </div>
     </div>
   </header>
 
@@ -119,7 +130,7 @@
                 <hr />
                 <p class="card-text">
                   <strong>Research</strong><br />
-                  Deep Learning, Reverberant
+                  Deep Learning, De-Reverberation
                 </p>
               </div>
             </div>
@@ -261,6 +272,7 @@
       </div>
     </div>
   </section>
+
 
   <footer>
     <div class="container">
