@@ -1,0 +1,28 @@
+.card-title {
+  font-size: 0.6rem;
+}
+
+.card-text {
+  font-size: 0.6rem;
+}
+
+.card-body hr {
+  margin: 0.5rem 0;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+.card-title .btn {
+  display: block;
+  font-weight: 700;
+  margin: 0;
+  padding: 0.1rem 0.2rem;
+  color: #128699;
+}
+
+.card-title .btn:hover {
+  color: white;
+  background-color: #17a2b8;
+}

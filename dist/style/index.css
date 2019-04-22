@@ -1,0 +1,40 @@
+#banner {
+  margin: 0;
+  height: 100%;
+  font-family: 'Alegreya', serif;
+  font-size: 1.5rem;
+  color: rgb(239, 242, 242);
+}
+
+#banner-bg {
+  background-image: url("../image/banner.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  #banner-bg {
+    background-attachment: scroll;
+  }
+  #banner {
+    font-size: 1rem;
+  }
+}
+
+.banner-icon {
+  font-size: 2rem;
+}
+
+#banner .description {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 40rem;
+}

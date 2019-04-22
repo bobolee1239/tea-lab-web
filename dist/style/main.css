@@ -1,0 +1,48 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+.logo-first {
+  color: rgb(43, 43, 43);
+  -webkit-text-fill-color: rgb(43, 43, 43);
+  font-weight: 700;
+}
+.logo-last {
+  color: rgb(221, 185, 32);
+  -webkit-text-fill-color: rgb(221, 185, 32);
+  font-weight: 700;
+}
+
+.odd {
+  background-color: rgb(245, 240, 211);
+}
+
+.even {
+  background-color: rgb(231, 224, 219);
+}
+
+section {
+  padding-top: 3rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+section h2 {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: rgb(51, 49, 49);
+  padding: 1.5rem;
+}
+
+#right {
+  font-size: 0.8rem;
+  color: rgb(246, 243, 176);
+}
